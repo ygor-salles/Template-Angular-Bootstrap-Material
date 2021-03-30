@@ -1,3 +1,9 @@
+## colors:
+
+#EE7850
+#FFFFFF
+#8F8286
+
 # Lightning Admin Angular
 
 A mobile first design of a responsive admin template built with angular and bootstrap 

@@ -19,6 +19,11 @@ import { TypographyComponent } from './pages/typography/typography.component';
 import { MapsComponent } from './pages/maps/maps.component';
 import { NotificationsComponent } from './pages/notifications/notifications.component';
 
+// Material Ui
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { ConfirmDialogComponent } from './utils/dialogs/confirm-dialog/confirm-dialog.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +35,8 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
     FormsComponent,
     TypographyComponent,
     MapsComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    ConfirmDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -38,8 +44,10 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
     CommonModule,
     BrowserAnimationsModule,
     CollapseModule.forRoot(),
-    ToastrModule.forRoot()
-    ],
+    ToastrModule.forRoot(),
+    MatDialogModule,
+    MatSidenavModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
