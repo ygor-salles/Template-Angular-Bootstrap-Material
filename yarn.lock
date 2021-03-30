@@ -5569,10 +5569,10 @@ ngx-bootstrap@5.6:
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.6.2.tgz#e648f826d303c29255c16772676efd30695740d1"
   integrity sha512-6YHXtdXkGH3w0NQoaUgNYAcrj064Lv5RTO284ha/hvpNTrh55yQz2cVh0VvwBk3MjyY2tdmLH4SuCJDszYdYiw==
 
-ngx-toastr@^9.1.2:
-  version "9.2.0"
-  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-9.2.0.tgz#cda6a95d87751eb22030e40013d14f890e5bfb01"
-  integrity sha512-wa9gmcLMMthnvtXOgpHQ9yJUsFe2A5Nb0evl85Qib5N2fg2UEL8FZbYSHooXT5k8vs1D3gLQzYpNAQm+5brmRA==
+ngx-toastr@11.3.3:
+  version "11.3.3"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-11.3.3.tgz#d360061edb2bee0a045e6b3bf832754007ac7b3d"
+  integrity sha512-DbLFkSZHsVPuuIIrsY1ziEhdkFUQ0V1yG1N0+1nKXGI5QBVesEDxLUVtntjzxJcWw/uUV+bKApo//tGHHORabQ==
   dependencies:
     tslib "^1.9.0"
 
