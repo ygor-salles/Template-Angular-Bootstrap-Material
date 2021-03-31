@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 $bg-color:#f2f3f8;
-$navbar-bg-color : #242939;
+$navbar-bg-color : #8F8286;
 $navbar-color:#6e7899;
-$sidebar-bg-color:#fff;
+$sidebar-bg-color:#EE7850;
 $sidebar-color:#3d4465;
 $sidebar-icon-color:#c4cff9;
 $border-color: #f2f3f8;
@@ -29,7 +29,7 @@ body {
 
     .left-nav {
       input.navbar-search {
-        background: #282f48;
+        background: #FFF;
         color:$navbar-color;
         &::placeholder{
           color:rgba($navbar-color, .6);
@@ -46,7 +46,7 @@ body {
 
       i {
         border-color: $navbar-color;
-        background: #282f48;
+        background: #FFF;
       }
 
       &:hover {
@@ -73,7 +73,7 @@ body {
 
   main {
     .overlay {
-      background: #242939;
+      background: #EE7850;
     }
 
     .sidebar {
