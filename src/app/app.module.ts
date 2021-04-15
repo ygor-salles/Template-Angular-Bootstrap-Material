@@ -23,6 +23,7 @@ import { NotificationsComponent } from './pages/notifications/notifications.comp
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { ConfirmDialogComponent } from './utils/dialogs/confirm-dialog/confirm-dialog.component';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { ConfirmDialogComponent } from './utils/dialogs/confirm-dialog/confirm-d
     CollapseModule.forRoot(),
     ToastrModule.forRoot(),
     MatDialogModule,
-    MatSidenavModule
+    MatSidenavModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
